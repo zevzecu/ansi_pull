@@ -1,7 +1,4 @@
-  tasks:
-  -  name: Install packages
-     apt:
-       name:
-         -  htop
-         -  tmux
-         -  mc
+tasks:
+ - name: Install packages
+   apt: name={{ item }} state=latest update_cache=true
+   loop: [htop, tmux, mc, curl]
