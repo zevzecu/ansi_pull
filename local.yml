@@ -1,4 +1,4 @@
--   hots:  localhost
+-   hosts:  localhost
     connection: local
     become: true
 
