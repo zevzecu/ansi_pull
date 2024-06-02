@@ -1,7 +1,7 @@
   tasks:
--  name: Install packages
-   apt:
-     name:
-       -  htop
-       -  tmux
-       -  mc
+  -  name: Install packages
+     apt:
+       name:
+         -  htop
+         -  tmux
+         -  mc
